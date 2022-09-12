@@ -1,0 +1,169 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+
+header {
+  background: #000000;
+  font-family: "Poppins";
+}
+
+h1 {
+  color: White
+}
+
+
+
+header .container {
+  max-width: 1400px;
+  padding: 40px 40px;
+  text-align: center;
+  max-height: 200px;
+}
+
+
+.pages {
+  font-family: "Poppins";
+}
+
+img {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  ;
+}
+
+/* #btn {
+  color: REd
+} */
+
+#btn {
+  --bs-btn-color: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-focus-shadow-rgb: transparent;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
+  --bs-btn-active-shadow: transparent;
+  --bs-btn-disabled-color: transparent;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: transparent;
+  --bs-gradient: none;
+
+}
+
+#submit {
+  --bs-btn-color: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-focus-shadow-rgb: transparent;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
+  --bs-btn-active-shadow: transparent;
+  --bs-btn-disabled-color: transparent;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: transparent;
+  --bs-gradient: none;
+  width: 100%;
+  margin-top: 25px;
+}
+
+ #input-group {
+  width: 100%;
+  padding-top: 10px;
+} 
+
+#margin10 {
+  padding: 10px
+}
+
+#col {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#controllers {
+  color: black;
+  background: #fff;
+  border-color: black;
+}
+
+#bordercolorblack {
+  border-color: black;
+}
+
+.btn-group {
+  width: 100%;
+}
+
+body {
+  background: #eee;
+}
+
+.css-view-175oi2r {
+  width: min-content;
+  align-items: stretch;
+  background-color: rgb(197 31 31 / 0%);
+  border: 0px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  list-style: none;
+  margin: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 0px;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+  text-align: right;
+}
+
+#img-fluid {
+  max-width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.cart {
+  background: #fff;
+}
+
+/* new checkout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
